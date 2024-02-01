@@ -64,7 +64,34 @@ Different locations host different physical and cultural features and population
 - The analysis suggests that the city is a suitable location for a small mixed-use development, supported by the correlation between high rental units, the age demographic of residents, and their proximity to mixed-use zones.
 <img width="1242" alt="image" src="https://github.com/marianahiroki/ESRI_Going-Places-with-Spatial-Analysis/assets/110165879/b926dce4-0d54-4820-bd5d-0f6d1417e720">
 
+## Stretch Goal ##
 
+**Objective:**
+- Select the most suitable site in compliance with affordable housing and equitable transportation policies.
+- Identify block groups with a median household income below $50,000 that intersect with accessible areas of the light rail.
 
+**Spatial Analysis Approach:**
+- Implement a spatial analysis approach to address two primary spatial questions:
+- Determine block groups with a median household income below $50,000.
+- Identify block groups with access to the MAX Light Rail blue line.
+- Evaluate the overlap of block groups meeting both criteria for a comprehensive assessment.
+  
+**Data Preparation, Analysis and Modelling:**
+- Filtered Enriched Block Group Renters with 2023 Median Household Income
+- Filtered to visualize the block groups with a median household income below $50,000
+- Added MAX Light Rail layer and created a buffer within .25 of a mile of the light rail to cover accessible areas
+
+**Key Findings:**
+- Five main areas attend both conditions:
+  - for the total area:410510096062,
+  - partially: 410510096032, 410510098011, 410510098012, 410510100013.
+  - a very smart part of	the 410510104083 block group.
+  <img width="1244" alt="image" src="https://github.com/marianahiroki/ESRI_Going-Places-with-Spatial-Analysis/assets/110165879/3b9f8862-041c-4947-a83e-34e2a5b69b2a">
+
+- The type of housing was not discussed in this exercise, but I would consider Moderate Density Residential and High-Density Residential Zonings.
+  <img width="1245" alt="image" src="https://github.com/marianahiroki/ESRI_Going-Places-with-Spatial-Analysis/assets/110165879/efd16a0d-d70e-48ff-ac74-a5e2e37dfe0c">
+
+**Conclusion:**
+- The analysis suggests that only affordable areas already excludes the 
 
 
