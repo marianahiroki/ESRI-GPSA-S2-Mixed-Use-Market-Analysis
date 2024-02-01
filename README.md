@@ -92,6 +92,6 @@ Different locations host different physical and cultural features and population
   <img width="1245" alt="image" src="https://github.com/marianahiroki/ESRI_Going-Places-with-Spatial-Analysis/assets/110165879/efd16a0d-d70e-48ff-ac74-a5e2e37dfe0c">
 
 **Conclusion:**
-- The analysis suggests that only affordable areas already excludes the 
+- An overlapping pattern emerges when considering both analyses, revealing the distribution of demographic groups based on their purchasing power. Zoning plays a crucial role in advocating for an inclusive city by establishing accessible areas and affordable housing units within the urban landscape.
 
 
