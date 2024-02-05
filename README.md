@@ -48,6 +48,7 @@ Different locations host different physical and cultural features and population
   - In other cases, some expressions are written with code:
     
   ![image](https://github.com/marianahiroki/ESRI_Going-Places-with-Spatial-Analysis/assets/110165879/d810b537-aa2b-4407-a867-5828c0bbd710)
+  
    This expression was created using Arcade to visualize the block groups that have an above-average number of rental units. (Average value found in the statistics section)
   
 **Data Analysis and Modeling:**
