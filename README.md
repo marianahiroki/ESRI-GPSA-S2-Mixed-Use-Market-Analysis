@@ -28,7 +28,7 @@ Different locations host different physical and cultural features and population
 - Where do high numbers of people between the ages of 22-39 live in high rental areas?
 
 4. Information Needed for Analysis:
-- Area zoned for mixed-use development. (Dataset provided by ESRI)
+- Area zoned for mixed-use development. [Dataset provided by ESRI](https://esriurl.com/CensusGeog)
 - Location of high rental areas. (Dataset provided by ESRI)
 - Geographic distribution of people aged 22-39 in high rental areas. [Dataset provided by ESRI](https://esriurl.com/CensusGeog)
 5. Exercise Steps:
@@ -36,14 +36,16 @@ Different locations host different physical and cultural features and population
 **Data Exploration and Preparation:**
 - Examined attribute tables and statistics.
   - Datasets easy to filter
+  ![image](https://github.com/marianahiroki/ESRI_Going-Places-with-Spatial-Analysis/assets/110165879/e7f0dc65-ea96-4531-abf4-232102fc7af4)
   ![image](https://github.com/marianahiroki/ESRI_Going-Places-with-Spatial-Analysis/assets/110165879/8e6b9f8f-fe49-470b-be36-0f0d14167d72)
   ![image](https://github.com/marianahiroki/ESRI_Going-Places-with-Spatial-Analysis/assets/110165879/3667a72a-dddd-4bce-9399-83920b9818d6)
 - Enriched layer data by adding additional information.
 - Added attribute data to create a new field for analysis.
-  - Although some calculations are made with SQL, similar to Power BI and Tableau, it is not necessary to write the syntax.
+  - Although some calculations are made with SQL, similar to Power BI and Tableau, it is not necessary to write the syntax. (E.g. to create a field with ages between 22-39, through SQL it was possible to sum the respective values of quantity of people between ages 22-29 and 30-39)
   ![image](https://github.com/marianahiroki/ESRI_Going-Places-with-Spatial-Analysis/assets/110165879/eb5eaee7-f45a-46aa-ab87-55e08a8bcd05)
   - In other cases, some expressions are written with code:
   ![image](https://github.com/marianahiroki/ESRI_Going-Places-with-Spatial-Analysis/assets/110165879/d810b537-aa2b-4407-a867-5828c0bbd710)
+   This expression was created using Arcade to visualize the block groups that have an above-average number of rental units. (Average value found in the statistics section)
   
 **Data Analysis and Modeling:**
 - Analysed and modelled the data.
