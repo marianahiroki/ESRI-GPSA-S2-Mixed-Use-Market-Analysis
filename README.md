@@ -30,7 +30,7 @@ Different locations host different physical and cultural features and population
 4. Information Needed for Analysis:
 - Area zoned for mixed-use development. (Dataset provided by ESRI)
 - Location of high rental areas. (Dataset provided by ESRI)
-- Geographic distribution of people aged 22-39 in high rental areas. (![Dataset provided by ESRI] (https://esriurl.com/CensusGeog))
+- Geographic distribution of people aged 22-39 in high rental areas. ([Dataset provided by ESRI] (https://esriurl.com/CensusGeog))
   
 5. Exercise Steps:
    
